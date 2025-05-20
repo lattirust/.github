@@ -32,7 +32,7 @@ Existing lattice estimator are tailored to {M,R,}LWE assumptions, whereas argume
 ### Latticefold
 [Nethermind's implementation of latticefold](https://github.com/NethermindEth/latticefold) is built on a fork of (an early version of) lattirust, and we plan to upstream their implementation back into lattirust. 
 
-### More schemes
+### More schemes
 We plan to implement additional schemes (e.g., [Greyhound](https://eprint.iacr.org/2024/1293), as well as new schemes that we are currently working on) in the near future. 
 
 ### Proof-of-encryption
