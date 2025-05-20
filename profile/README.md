@@ -24,7 +24,7 @@ Lattirust provides the following crates.
 ## Roadmap
 
 ### Lattice arithmetic
-We plan to implement polynomial operations for more polynomial rings, including non-NTT- or partial-NTT-based polynomial multiplication, lifting techniques for polynomial rings with modulus $q=5 mod 8$. 
+We plan to implement polynomial operations for more polynomial rings, including non-NTT- or partial-NTT-based polynomial multiplication, lifting techniques for polynomial rings with modulus $q=5 \mod 8$. 
 
 ### Lattice estimator
 Existing lattice estimator are tailored to {M,R,}LWE assumptions, whereas arguments typically require {M,R,v,I,k-R,}SIS assumptions. Further, existing estimators are written in Sage, whereas for efficiency reasons it would be preferable to have a const implementation in Rust, that can be called at compile-time. We have implemented our own customized lattice estimator (following state-of-the-art attacks), and we will merge it soon. 
