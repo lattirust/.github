@@ -1,6 +1,8 @@
 # Lattirust
 Lattirust is a Rust library for lattice-based zero-knowledge/succinct arguments. It is intended to be somewhat like [arkworks](https://github.com/arkworks-rs), but for lattices; or, alternatively, like [lattigo](https://github.com/tuneinsight/lattigo), but for arguments. In short, lattirust provides an extensive toolbox for lattice-based primitives, implementations of state-of-the-art schemes, and makes it easy to prototype, test, and benchmark new schemes. All the code is dual-licensed under an MIT and an Apache v2 license, at your discretion. 
 
+Lattirust is maintained by [Christian Knabenhans](https://cknabs.github.io). Issues, feedback, and contributions are welcome. 
+
 ## Contents
 Lattirust provides the following crates. 
 
